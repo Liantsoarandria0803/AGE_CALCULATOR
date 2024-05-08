@@ -5,7 +5,7 @@ body{
 }
 .main{
     width: 67vw;
-    height:56vh;
+    height:max-content;
     background-color: rgb(255, 255, 255);
     border-top-left-radius:23px ;
     border-top-right-radius: 23px;
@@ -93,7 +93,7 @@ h1{
 @media only screen and (max-width: 1086px ) {
     button{
         grid-column: 13/14;
-    height: 55px;
+    height: max-content;
     width: 88px;
     border: solid  blueviolet;;
     border-radius: 23px;
